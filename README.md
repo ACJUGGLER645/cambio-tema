@@ -95,3 +95,8 @@ En el archivo **script.js** se usaron funciones simples de JavaScript que permit
 * Crear un tema automático que cambie según la hora del día.
 
 ---
+
+**Autor:** Jhon Alejandro Correal Martinez  
+**Asignatura:** Programación III  
+**Programa:** Tecnología en Desarrollo de Software – Facultad de Sistemas  
+**Institución:** Escuela Tecnológica Instituto Técnico Central 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR DE TEMAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tema-claro">
+    
+    <div class="container">
+
+        <h1>SELECTOR DE TEMAS INTERACTIVO</h1>
+
+        <div class="theme-buttons">
+            <button data-tema="tema-claro">🌞 TEMA CLARO</button>
+            <button data-tema="tema-oscuro">🌚 TEMA OSCURO</button>
+            <button data-tema="tema-naranja">🟠 TEMA NARANJA</button>
+        </div>
+
+        <div class="content">
+            <h2 id="tituloContenido">Bienvenido al selector de temas</h2>
+            <p>Ejemplo para manipular el DOM basado en los comandos relacionados con javascript</p>
+
+            <div class="demo-image" id="demo-area">
+                <span>Área de demostración</span>
+            </div>
+            <button id="btn_frase" class="excluir">MOSTRAR FRASE</button>
+            <p>Haz click en los botones de arriba para cambiar el tema de la página</p>
+        </div>
+
+        <div class="counter">
+            <span>Cambio de tema</span>
+            <span id="contador">0</span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
